@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "149681592967",
+    "project_id": "controle-de-nf-548fe",
+    "storage_bucket": "controle-de-nf-548fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149681592967:android:ce885717b99ffd47997622",
+        "android_client_info": {
+          "package_name": "br.com.mdr.controledenf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149681592967-m49d53fq3b1l29p4oip361h0mfph0rgr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.mdr.controledenf",
+            "certificate_hash": "4963c801fc67647e3408d98e9bd619f28800c153"
+          }
+        },
+        {
+          "client_id": "149681592967-d26hripf0tidnm5kmd5fseorrhr47ofe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWABTQY_45g9tbdFFvmDyQoizQ6_QF2K0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149681592967-cejujd19ketpc638r2pht0o6frk8sb2g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

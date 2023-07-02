@@ -1,0 +1,38 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/rocha/Projetos Kotlin/BoredomKiller/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/rocha/Projetos Kotlin/BoredomKiller/app/src/main/res/layout/fragment_activities_in_progress.xml" value="0.2359375" />
+        <entry key="..\:/Users/rocha/Projetos Kotlin/BoredomKiller/app/src/main/res/layout/fragment_my_activities.xml" value="0.25" />
+        <entry key="..\:/Users/rocha/Projetos Kotlin/BoredomKiller/app/src/main/res/layout/fragment_server_activity.xml" value="0.25" />
+        <entry key="..\:/Users/rocha/Projetos Kotlin/BoredomKiller/app/src/main/res/layout/fragment_splash.xml" value="0.25" />
+        <entry key="..\:/Users/rocha/Projetos Kotlin/BoredomKiller/app/src/main/res/layout/user_activity_item.xml" value="0.25" />
+        <entry key="..\:/Users/rocha/Projetos Kotlin/BoredomKiller/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+        <entry key="..\:/Users/rocha/Projetos Kotlin/BoredomKiller/base/src/main/res/drawable/ic_busywork.xml" value="0.169" />
+        <entry key="..\:/Users/rocha/Projetos Kotlin/BoredomKiller/base/src/main/res/drawable/ic_charity.xml" value="0.169" />
+        <entry key="..\:/Users/rocha/Projetos Kotlin/BoredomKiller/base/src/main/res/drawable/ic_cooking.xml" value="0.169" />
+        <entry key="..\:/Users/rocha/Projetos Kotlin/BoredomKiller/base/src/main/res/drawable/ic_diy.xml" value="0.169" />
+        <entry key="..\:/Users/rocha/Projetos Kotlin/BoredomKiller/base/src/main/res/drawable/ic_educational.xml" value="0.169" />
+        <entry key="..\:/Users/rocha/Projetos Kotlin/BoredomKiller/base/src/main/res/drawable/ic_music.xml" value="0.169" />
+        <entry key="..\:/Users/rocha/Projetos Kotlin/BoredomKiller/base/src/main/res/drawable/ic_recreational.xml" value="0.169" />
+        <entry key="..\:/Users/rocha/Projetos Kotlin/BoredomKiller/base/src/main/res/drawable/ic_relaxation.xml" value="0.169" />
+        <entry key="..\:/Users/rocha/Projetos Kotlin/BoredomKiller/base/src/main/res/drawable/ic_social.xml" value="0.169" />
+        <entry key="..\:/Users/rocha/Projetos Kotlin/boredomkiller/app/src/main/res/drawable-v24/ic_sort.xml" value="0.169" />
+        <entry key="..\:/Users/rocha/Projetos Kotlin/boredomkiller/app/src/main/res/drawable/ic_sort.xml" value="0.169" />
+        <entry key="..\:/Users/rocha/Projetos Kotlin/boredomkiller/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/rocha/Projetos Kotlin/boredomkiller/app/src/main/res/layout/bottom_sheet_sort_item.xml" value="0.25" />
+        <entry key="..\:/Users/rocha/Projetos Kotlin/boredomkiller/app/src/main/res/layout/fragment_server_activity.xml" value="0.25" />
+        <entry key="..\:/Users/rocha/Projetos Kotlin/boredomkiller/app/src/main/res/layout/fragment_sort_bottom_sheet.xml" value="0.25" />
+        <entry key="..\:/Users/rocha/Projetos Kotlin/boredomkiller/app/src/main/res/menu/filter_menu.xml" value="0.25" />
+        <entry key="..\:/Users/rocha/Projetos Kotlin/boredomkiller/base/src/main/res/drawable/ic_random.xml" value="0.169" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

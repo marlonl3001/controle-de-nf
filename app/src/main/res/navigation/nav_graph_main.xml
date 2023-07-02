@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@id/dashboard">
+
+    <fragment
+        android:id="@+id/dashboard"
+        android:name="br.com.mdr.controledenf.presentation.fragment.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboard_to_historyFragment"
+            app:destination="@id/history"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/preferences"
+        android:name="br.com.mdr.controledenf.presentation.fragment.PreferencesFragment"
+        android:label="fragment_preferences"
+        tools:layout="@layout/fragment_preferences" >
+        <action
+            android:id="@+id/action_preferences_to_partnerCompaniesFragmentFragment"
+            app:destination="@id/partnerCompaniesFragmentFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_preferences_to_expenseCategoriesFragment"
+            app:destination="@id/expenseCategoriesFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/partnerCompaniesFragmentFragment"
+        android:name="br.com.mdr.controledenf.presentation.fragment.PartnerCompaniesFragment"
+        android:label="PartnerCompaniesFragmentFragment"
+        tools:layout="@layout/fragment_partner_companies"/>
+    <fragment
+        android:id="@+id/expenseCategoriesFragment"
+        android:name="br.com.mdr.controledenf.presentation.fragment.ExpenseCategoriesFragment"
+        android:label="ExpenseCategoriesFragment"
+        tools:layout="@layout/fragment_expense_categories"/>
+    <fragment
+        android:id="@+id/history"
+        android:name="br.com.mdr.controledenf.presentation.fragment.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" >
+        <action
+            android:id="@+id/action_historyFragment_to_preferences"
+            app:destination="@id/preferences"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+</navigation>

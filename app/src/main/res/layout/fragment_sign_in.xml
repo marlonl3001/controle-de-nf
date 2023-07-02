@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/margin32"
+        tools:context=".presentation.fragment.SignInFragment">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/choose_signin_method"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/btnRegister"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin32"
+            android:text="@string/email_register"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/text_or"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtMessage"/>
+
+        <View
+            android:layout_width="@dimen/margin0"
+            android:layout_height="1dp"
+            android:background="@color/background800"
+            app:layout_constraintBottom_toBottomOf="@id/text_or"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/text_or"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_or"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/margin32"
+            android:background="@color/white"
+            android:text="@string/or"
+            android:textStyle="bold"
+            android:textColor="@color/background800"
+            android:paddingHorizontal="@dimen/margin16"
+            app:layout_constraintBottom_toTopOf="@id/btnGoogle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnRegister"/>
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Button.Google"
+            android:id="@+id/btnGoogle"
+            android:layout_width="@dimen/margin0"
+            android:text="@string/sign_google"
+            app:layout_constraintBottom_toTopOf="@id/btnFacebook"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_or"/>
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Button.Facebook"
+            android:id="@+id/btnFacebook"
+            android:layout_width="@dimen/margin0"
+            android:layout_marginTop="@dimen/margin16"
+            android:text="@string/sign_facebook"
+            app:iconTint="@color/design_facebook_color"
+            app:layout_constraintBottom_toTopOf="@id/btnHasRegister"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnGoogle"/>
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.Material3.Button.TextButton"
+            android:id="@+id/btnHasRegister"
+            android:layout_width="@dimen/margin0"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin16"
+            android:gravity="center"
+            android:text="@string/alread_registered"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/btnFacebook"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

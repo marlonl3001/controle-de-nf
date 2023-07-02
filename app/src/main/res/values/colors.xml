@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#04a2e9</color>
+    <color name="colorPrimaryDark">#1877F2</color>
+    <color name="colorAccent">#5A25F8</color>
+    <color name="background800">#424242</color>
+
+    <color name="textPrimary">#151515</color>
+    <color name="textSecondary">#2B292B</color>
+    <color name="toolbarIconTint">#212121</color>
+
+    <color name="black_alpha_40">#33000000</color>
+
+    <color name="fragmentBackground">#DFDFDF</color>
+
+    <color name="colorSuccess">#0ead69</color>
+    <color name="colorError">#e53935</color>
+
+    <!-- Social Login Colors -->
+    <color name="design_facebook_color">#1877F2</color>
+    <color name="design_google_color">#797979</color>
+    <color name="design_google_icon_color_1">#fbc02d</color>
+    <color name="design_google_icon_color_2">#e53935</color>
+    <color name="design_google_icon_color_3">#4caf50</color>
+    <color name="design_google_icon_color_4">#1565c0</color>
+</resources>

@@ -1,0 +1,39 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-parcelize'
+    id 'kotlin-kapt'
+}
+
+apply from: "$rootDir/tools/versions.gradle"
+
+android {
+    compileSdkVersion deps.version.compileSdk
+}
+
+dependencies {
+    implementation deps.androidx.lifecycle
+    implementation deps.androidx.lifecycle_ext
+    implementation deps.androidx.lifecycle_livedata
+
+    api platform('com.google.firebase:firebase-bom:26.8.0')
+    api 'com.google.firebase:firebase-auth-ktx'
+
+    //Koin
+    api deps.koin.android
+    api deps.koin.viewmodel
+    api deps.koin.test
+
+    //Gson
+    implementation deps.others.gson
+
+    //Timber
+    api deps.others.timber
+
+    //Retrofit
+    api deps.retrofit.runtime
+
+    //Room
+    implementation "androidx.room:room-ktx:2.4.3"
+    kapt "androidx.room:room-compiler:2.4.3"
+}

@@ -1,0 +1,101 @@
+def version = [:]
+version.cardView = '1.0.0'
+version.fragment = '1.5.5'
+version.constraintLayout = "2.1.4"
+version.glide = '4.13.2'
+version.gradle = '7.0.0'
+version.kotlin = '1.5.21'
+version.lifecycle = '2.4.1'
+version.lifecycle_ext = '2.2.0'
+version.multidex = '1.0.3'
+version.material = "1.6.1"
+version.navigation = "2.4.2"
+version.okhttp = "4.9.2"
+version.retrofit = '2.9.0'
+version.recyclerView = "1.2.0"
+version.supportLibrary = '1.4.1'
+version.compileSdk = 31
+version.sdkBuildTools = '31.0.0'
+version.minSdk = 26
+version.targetSdk = 31
+version.koin = '2.2.3'
+version.timber = "4.7.1"
+version.coroutines = '1.4.2'
+version.gradle_versions_plugin = '0.42.0'
+version.ribbon = '1.0.4'
+version.navigation_safe_args = '2.5.3'
+version.gson = '2.9.0'
+version.chart = '3.1.0'
+version.test_rules = '1.4.0'
+version.junit = '1.1.3'
+version.core_testing = '2.1.0'
+version.mockk = '1.11.0'
+version.google_services = '4.3.15'
+
+def androidx = [:]
+androidx.appcompat = "androidx.appcompat:appcompat:$version.supportLibrary"
+androidx.constraint_layout = "androidx.constraintlayout:constraintlayout:$version.constraintLayout"
+androidx.lifecycle = "androidx.lifecycle:lifecycle-runtime-ktx:$version.lifecycle"
+androidx.lifecycle_ext = "androidx.lifecycle:lifecycle-extensions:$version.lifecycle_ext"
+androidx.lifecycle_livedata = "androidx.lifecycle:lifecycle-livedata-ktx:$version.lifecycle"
+androidx.recyclerview = "androidx.recyclerview:recyclerview:$version.recyclerView"
+androidx.navigation_fragment = "androidx.navigation:navigation-fragment-ktx:$version.navigation"
+androidx.navigation_ui = "androidx.navigation:navigation-ui-ktx:$version.navigation"
+
+def classpath = [:]
+classpath.gradle = "com.android.tools.build:gradle:$version.gradle"
+classpath.kotlin = "org.jetbrains.kotlin:kotlin-gradle-plugin:$version.kotlin"
+classpath.navigationSafeArgs = "androidx.navigation:navigation-safe-args-gradle-plugin:$version.navigation_safe_args"
+classpath.google_services = "com.google.gms:google-services:$version.google_services"
+
+def koin = [:]
+koin.android = "io.insert-koin:koin-android:$version.koin"
+koin.viewmodel = "io.insert-koin:koin-androidx-viewmodel:$version.koin"
+koin.test = "io.insert-koin:koin-test:$version.koin"
+
+def glide = [:]
+glide.runtime = "com.github.bumptech.glide:glide:$version.glide"
+glide.compiler = "com.github.bumptech.glide:compiler:$version.glide"
+
+def material = [:]
+material.runtime = "com.google.android.material:material:$version.material"
+
+def okhttp = [:]
+okhttp.runtime = "com.squareup.okhttp3:okhttp:$version.okhttp"
+okhttp.logging = "com.squareup.okhttp3:logging-interceptor:$version.okhttp"
+okhttp.mockWebServer = "com.squareup.okhttp3:mockwebserver:$version.okhttp"
+
+def others = [:]
+others.timber = "com.jakewharton.timber:timber:$version.timber"
+others.gson = "com.google.code.gson:gson:$version.gson"
+others.chart = "com.github.PhilJay:MPAndroidChart:$version.chart"
+
+def retrofit = [:]
+retrofit.runtime = "com.squareup.retrofit2:retrofit:$version.retrofit"
+retrofit.gson = "com.squareup.retrofit2:converter-gson:$version.retrofit"
+
+def coroutines = [:]
+coroutines.android = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$version.coroutines"
+coroutines.test = "org.jetbrains.kotlinx:kotlinx-coroutines-test:$version.coroutines"
+
+def test = [:]
+test.rules = "androidx.test:rules:$version.test_rules"
+test.junit = "androidx.test.ext:junit:$version.junit"
+test.coreTesting = "androidx.arch.core:core-testing:$version.core_testing"
+test.mockk = "io.mockk:mockk:$version.mockk"
+test.mockkAndroid = "io.mockk:mockk-android:$version.mockk"
+
+def dependencies = [:]
+dependencies.androidx = androidx
+dependencies.classpath = classpath
+dependencies.glide = glide
+dependencies.material = material
+dependencies.okhttp = okhttp
+dependencies.others = others
+dependencies.retrofit = retrofit
+dependencies.version = version
+dependencies.koin = koin
+dependencies.coroutines = coroutines
+dependencies.test = test
+
+ext.deps = dependencies
